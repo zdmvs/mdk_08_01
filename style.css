@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-MediumItalic.eot');
+    src: local('Google Sans Medium Italic'), local('GoogleSans-MediumItalic'),
+        url('GoogleSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-MediumItalic.woff2') format('woff2'),
+        url('GoogleSans-MediumItalic.woff') format('woff'),
+        url('GoogleSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-Bold.eot');
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'),
+        url('GoogleSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-Bold.woff2') format('woff2'),
+        url('GoogleSans-Bold.woff') format('woff'),
+        url('GoogleSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-Italic.eot');
+    src: local('Google Sans Italic'), local('GoogleSans-Italic'),
+        url('GoogleSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-Italic.woff2') format('woff2'),
+        url('GoogleSans-Italic.woff') format('woff'),
+        url('GoogleSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-Medium.eot');
+    src: local('Google Sans Medium'), local('GoogleSans-Medium'),
+        url('GoogleSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-Medium.woff2') format('woff2'),
+        url('GoogleSans-Medium.woff') format('woff'),
+        url('GoogleSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-Regular.eot');
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'),
+        url('GoogleSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-Regular.woff2') format('woff2'),
+        url('GoogleSans-Regular.woff') format('woff'),
+        url('GoogleSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('GoogleSans-BoldItalic.eot');
+    src: local('Google Sans Bold Italic'), local('GoogleSans-BoldItalic'),
+        url('GoogleSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoogleSans-BoldItalic.woff2') format('woff2'),
+        url('GoogleSans-BoldItalic.woff') format('woff'),
+        url('GoogleSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+*{
+font-family: 'Google Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #3d3d3d;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-content: flex-end;
+    margin: 0;
+}
+.headerleft{
+margin-bottom: 20px;
+margin: 0;
+}
+h3{
+margin: 0;
+padding: 10px;
+}
+h1{
+margin: 0;
+padding: 0;
+}
+nav {
+    color: #fff;
+    padding: 10px 0;
+    padding-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+form {
+    padding: 20px;
+/*     border: 1px solid #ccc;
+ */    max-width: auto;
+    background-color: #515151;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+a.button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+}
+
+p {
+    text-align: center;
+}
+.wmk{
+display:flex;
+margin: 0 auto;
+gap: 10px;
+margin-top:20px;
+background: #3d3d3d;
+flex-wrap: wrap;}
+img.thumbnail {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #232323;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.input-file {
+	position: relative;
+	display: inline-block;
+    
+}
+.input-file-text {
+	padding: 0 10px;
+	text-align: left;
+	height: 40px;
+	display: block;
+	float: right;
+	box-sizing: border-box;
+	width: 200px;
+	border-radius: 6px 0px 0 6px;
+    color: rgb(189, 189, 189);
+    overflow: hidden;
+    position: relative; 
+}
+
+.input-file-btn {
+position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 5px;
+	background-color: #3498db;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+/* Focus */
+.input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+.input-file:active .input-file-btn {
+	background-color: #2e3070;
+}
+.filess{
+    display: flex;
+min-width: 250px;
+}
+.input-file-btn{
+width: 300px;
+}
+#position {
+    width: 200px; /* или другое значение, которое вам подходит */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #5aaed8;
+    font-size: 16px;
+    outline: none;
+    background: #3498db;
+    color: white;
+    margin: 0 auto;
+}
+.leftwmk form{
+float: left;
+}
+
+a.pocket{
+    text-decoration: none;
+    color: #fff; /* Цвет ссылок в навигации для темной темы */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Плавное изменение цвета ссылки */
+}
+
+a:hover.pocket{
+    color: #b5beff; /* Новый цвет при наведении на ссылку */
+}
+a:visited.pocket{
+    color: #fff; /* Цвет уже посещенной ссылки */
+}
+input[type="range" i] {
+    appearance: auto;
+    cursor: default;
+    color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    width: 200px;
+    margin: 2px;
+}
+.opengreen{
+color: rgb(63, 127, 63);
+}
